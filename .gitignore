@@ -20,4 +20,7 @@ bin/*
 .zero-knife.rb
 Policyfile.lock.json
 
-cookbooks.tar.gz
+*.tar.gz
+
+.ruby-gemset
+.ruby-version

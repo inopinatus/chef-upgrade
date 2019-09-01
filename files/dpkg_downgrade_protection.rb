@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Ohai.plugin(:DpkgDowngradeProtection) do
   shim = Module.new do
     DOWNGRADE_PROTECTED_PACKAGES = %w(chef-client).freeze

@@ -12,7 +12,7 @@ directory prepend_hook_directory do
 end
 
 cookbook_file "#{prepend_hook_directory}/dpkg_downgrade_protection.rb" do
-  source 'dpkg_downgrade_protection.rb.erb'
+  source 'dpkg_downgrade_protection.rb'
   owner 'root'
   group 'aws'
   mode '0644'

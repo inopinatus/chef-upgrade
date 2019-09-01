@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 name 'chef-upgrade'
 maintainer 'Josh Goodall'
 maintainer_email 'inopinatus@inopinatus.org'

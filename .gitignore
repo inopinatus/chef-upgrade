@@ -21,6 +21,7 @@ bin/*
 Policyfile.lock.json
 
 *.tar.gz
+Berksfile.lock
 
 .ruby-gemset
 .ruby-version

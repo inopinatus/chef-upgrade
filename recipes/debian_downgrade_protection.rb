@@ -1,5 +1,5 @@
 # Cookbook Name:: chef-upgrade
-# Recipe:: dpkg_downgrade_protection
+# Recipe:: debian_downgrade_protection
 #
 # Copyright 2019, Josh Goodall
 
@@ -11,8 +11,8 @@ directory prepend_hook_directory do
   mode '0755'
 end
 
-cookbook_file "#{prepend_hook_directory}/dpkg_downgrade_protection.rb" do
-  source 'dpkg_downgrade_protection.rb'
+cookbook_file "#{prepend_hook_directory}/debian_downgrade_protection.rb" do
+  source 'debian_downgrade_protection.rb'
   owner 'root'
   group 'aws'
   mode '0644'

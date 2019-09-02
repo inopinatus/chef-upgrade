@@ -5,4 +5,4 @@
 
 include_recipe 'chef-upgrade::cannot_self_terminate'
 include_recipe 'chef_client_updater::default'
-include_recipe 'chef-upgrade::dpkg_downgrade_protection'
+include_recipe 'chef-upgrade::debian_downgrade_protection'
